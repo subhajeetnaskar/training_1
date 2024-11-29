@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-    "mongodb+srv://sentithilisa:admin@cluster1.bm1e8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1",
+    "mongodb+srv://admin:admin@cluster0.esy2z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 {}
 )
 .then(()=>{
